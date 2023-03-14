@@ -1,0 +1,62 @@
+nav {
+    background-color: lightgray;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+}
+.fa-bars {
+    font-size: 80px;
+    font-weight: bolder;
+}
+.item {
+    display: block ;
+    line-height: 40px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.toggle-content {
+    list-style: none;
+    padding: 0;
+    width: 250px;
+    font-size: medium;
+}
+
+#toggleMenu { 
+    transition: height 300ms ease-in-out;
+    overflow: hidden;
+}
+
+#toggleMenu:not(.active) {
+    display: none;
+}
+
+.toggle-content a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lightgray {
+    background-color: lightgray;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.black {
+    background-color: black;
+}
+.purple {
+    background-color: purple;
+}
+.white {
+    background-color: white;
+}
+.orange {
+    background-color: orange;
+}
